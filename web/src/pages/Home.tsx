@@ -91,30 +91,23 @@ export default function Home() {
        <section className="container py-16 center">
           <h2 className="section-title center-inline mb-8">모든 AI강사의 출발점은 두 가지입니다</h2>
           <div className="grid col-2 gap-8">
-             <div className="card flex gap-4 items-center">
-                 <div>
-                   <h3 className="font-bold text-xl mb-2">AI툴활용 강사과정</h3>
-                   <p className="text-muted">AI 결과물을 생성하고 수정하여 실제 수업자료와 교육콘텐츠로 연결하는 공통 기초과정</p>
-                 </div>
+             <div className="card">
+                 <h3 className="font-bold text-xl mb-2">AI툴활용 강사과정</h3>
+                 <p className="text-muted">AI 결과물을 생성하고 수정하여 실제 수업자료와 교육콘텐츠로 연결하는 공통 기초과정</p>
              </div>
-             <div className="card flex gap-4 items-center">
-                 <div>
-                   <h3 className="font-bold text-xl mb-2">AI윤리 강사과정</h3>
-                   <p className="text-muted">저작권, 개인정보, 편향성, 교육현장 안전기준까지 책임 있는 AI 활용을 배우는 필수 공통과정</p>
-                 </div>
+             <div className="card">
+                 <h3 className="font-bold text-xl mb-2">AI윤리 강사과정</h3>
+                 <p className="text-muted">저작권, 개인정보, 편향성, 교육현장 안전기준까지 책임 있는 AI 활용을 배우는 필수 공통과정</p>
              </div>
-             <div className="card flex gap-4 items-center">
-                 <div>
-                   <h3 className="font-bold text-xl mb-2">AI 교수법 강사과정</h3>
-                   <p className="text-muted">AI를 활용한 효과적인 수업 설계와 학습자 맞춤형 상호작용 기법을 통해 수업의 질을 높이는 실전 역량 과정</p>
-                 </div>
+             <div className="card">
+                 <h3 className="font-bold text-xl mb-2">AI 교수법 강사과정</h3>
+                 <p className="text-muted">AI를 활용한 효과적인 수업 설계와 학습자 맞춤형 상호작용 기법을 통해 수업의 질을 높이는 실전 역량 과정</p>
              </div>
-             <div className="card flex gap-4 items-center">
-                 <div>
-                   <h3 className="font-bold text-xl mb-2">AI 콘텐츠 강사과정</h3>
-                   <p className="text-muted">다양한 AI 도구를 활용해 창의적인 멀티미디어 교육 콘텐츠를 기획하고 고품질 자료로 직접 제작하는 전문 심화 과정</p>
-                 </div>
+             <div className="card">
+                 <h3 className="font-bold text-xl mb-2">AI 콘텐츠 강사과정</h3>
+                 <p className="text-muted">다양한 AI 도구를 활용해 창의적인 멀티미디어 교육 콘텐츠를 기획하고 고품질 자료로 직접 제작하는 전문 심화 과정</p>
              </div>
+
           </div>
        </section>
 
