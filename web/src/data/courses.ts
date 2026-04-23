@@ -35,10 +35,10 @@ export interface Course {
 export const courseCategories = [
   { id: 'common', name: '공통과정' },
   { id: 'school', name: '학교·교육 강사과정' },
-  { id: 'target', name: '대상별 맞춤 강사과정' },
-  { id: 'content', name: '콘텐츠·수업 제작 강사과정' },
-  { id: 'industry', name: '산업 전문 강사과정' },
-  { id: 'global', name: '전문가·글로벌 강사과정' }
+  { id: 'afterschool', name: 'AI 방과후 과정' },
+  { id: 'academy', name: '교습소·학원·공부방과정' },
+  { id: 'online', name: 'AI온라인과정' },
+  { id: 'operation', name: 'AI 방과후·교육기관 운영 강사과정' }
 ];
 
 export const courses: Course[] = [
@@ -2614,8 +2614,8 @@ export const courses: Course[] = [
   },
   {
     "id": "course-chytxi",
-    "categoryId": "school",
-    "categoryName": "학교·교육 강사과정",
+    "categoryId": "academy",
+    "categoryName": "교습소·학원·공부방과정",
     "title": "교습소·학원·공부방 교사 양성과정",
     "badge": "학교·교육",
     "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80",
@@ -2756,8 +2756,8 @@ export const courses: Course[] = [
   },
   {
     "id": "course-l9p13f",
-    "categoryId": "school",
-    "categoryName": "학교·교육 강사과정",
+    "categoryId": "online",
+    "categoryName": "AI온라인과정",
     "title": "AI 온라인 교사 양성과정",
     "badge": "학교·교육",
     "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80",
@@ -4320,8 +4320,8 @@ export const courses: Course[] = [
   },
   {
     "id": "course-a886yq",
-    "categoryId": "school",
-    "categoryName": "학교·교육 강사과정",
+    "categoryId": "operation",
+    "categoryName": "AI 방과후·교육기관 운영 강사과정",
     "title": "AI 방과후·교육기관 운영 강사과정",
     "badge": "학교·교육",
     "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80",
@@ -4450,6 +4450,149 @@ export const courses: Course[] = [
     ],
     "evaluation": [
       "수업안, 운영자료, 상담자료, 제안안, 최종 발표를 기준으로 평가합니다. 이수 후 방과후 운영강사, 교육기관 프로그램 강사, 학원·공부방 AI 교육과정으로 확장 가능합니다."
+    ],
+    "instructor": {
+      "name": "타임스미디어 교수진",
+      "role": "전문강사",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80",
+      "history": [
+        "타임스미디어 교육연구소 선임연구원",
+        "과정별 특화 현업 전문가 출강"
+      ]
+    }
+  },
+  {
+    "id": "course-afterschool-main",
+    "categoryId": "afterschool",
+    "categoryName": "AI 방과후 과정",
+    "title": "AI 방과후 교사 양성과정",
+    "badge": "학교·교육",
+    "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80",
+    "summary": "질문을 바꾸면, 수업이 바뀝니다",
+    "recruitmentPeriod": "상시 모집 (기수별 운영)",
+    "duration": "5주 (총 48시간)",
+    "schedule": "월·수·금 10:00~14:00 (협의 가능)",
+    "tuition": "980,000원",
+    "descriptions": [
+      "이 과정은 AI 자체를 가르치는 과정이 아니라, AI툴과 프롬프트를 활용해 초등 방과후 수업을 더 재미있고 효과적으로 운영하는 교사를 양성하는 과정입니다. 이미지, 영상, 음성, 문서형 AI툴을 활용하여 수업자료를 만들고, 활동형 콘텐츠를 구성하고, 학생 수준과 주제에 맞게 수업을 설계하는 실전 중심 구조로 운영됩니다. 특히 방과후 현장에 맞게 영어, 창의활동, 문화, 발표, 프로젝트형 수업으로 연결할 수 있도록 구성됩니다."
+    ],
+    "necessity": [
+      "기존 방과후 수업은 자료 준비 시간이 오래 걸리고 반복업무가 많기 때문",
+      "학생 참여를 높이기 위해 이미지·영상·활동형 콘텐츠 구성이 중요하기 때문",
+      "학부모와 학교가 신뢰할 수 있도록 AI 윤리 이해가 반드시 필요하기 때문",
+      "AI를 활용한 영어·창의형 수업이 학교 차별화 프로그램으로 확장될 수 있기 때문"
+    ],
+    "advantages": [
+      "AI툴 출력부터 수정·보완까지 직접 다루는 실전형 구성",
+      "방과후 현장에서 바로 쓸 수 있는 수업자료 제작 중심 학습",
+      "영어, 문화, 발표, 프로젝트형 수업으로 확장 가능한 구조",
+      "AI 윤리를 함께 익혀 학부모와 학교 신뢰 확보 가능"
+    ],
+    "recommendations": [
+      "초등 방과후 교사로 활동하고 싶은 분",
+      "영어수업과 AI 활용을 결합하고 싶은 분",
+      "학생 참여형 수업 콘텐츠를 직접 만들고 싶은 분",
+      "테솔, 영어교육, 창의교육 경험을 AI와 연결하고 싶은 분",
+      "학교, 기관, 공부방 등에서 차별화된 수업을 운영하고 싶은 분"
+    ],
+    "beforeAfter": [
+      {
+        "before": "AI를 수업에 어떻게 넣어야 할지 막막함",
+        "after": "수업 목적에 맞게 AI를 활용할 수 있음"
+      },
+      {
+        "before": "자료 준비에 시간이 오래 걸림",
+        "after": "수업자료를 빠르게 만들고 수정할 수 있음"
+      },
+      {
+        "before": "영어수업과 AI수업을 어떻게 연결할지 모름",
+        "after": "영어·창의·활동 수업으로 자연스럽게 연결 가능"
+      },
+      {
+        "before": "결과물은 만들지만 수업으로 구성하기 어려움",
+        "after": "활동형 수업안까지 설계 가능"
+      },
+      {
+        "before": "AI 윤리에 대한 설명이 어려움",
+        "after": "학부모와 학교에 설명 가능한 수준의 윤리 이해 확보"
+      }
+    ],
+    "flow": [
+      {
+        "step": "1단계",
+        "title": "방과후 수업 이해",
+        "content": "학생 대상 수업 구조 이해"
+      },
+      {
+        "step": "2단계",
+        "title": "AI툴 활용",
+        "content": "이미지·영상·음성 출력 및 수정"
+      },
+      {
+        "step": "3단계",
+        "title": "수업 콘텐츠 제작",
+        "content": "활동형 수업안 제작"
+      },
+      {
+        "step": "4단계",
+        "title": "실전 적용",
+        "content": "발표·피드백·수정"
+      }
+    ],
+    "weeklyPlan": [
+      {
+        "week": "1강",
+        "title": "방과후 AI수업 기초 이해",
+        "content": "방과후 수업 구조, 학생 특성, AI 활용 수업 개념 이해"
+      },
+      {
+        "week": "2강",
+        "title": "프롬프트 기초 작성법",
+        "content": "질문 구조, 역할 부여, 조건 설정, 결과 중심 질문 설계"
+      },
+      {
+        "week": "3강",
+        "title": "AI툴 활용 입문",
+        "content": "텍스트·이미지·음성·영상형 AI툴 특성과 사용법"
+      },
+      {
+        "week": "4강",
+        "title": "이미지 수업자료 실습",
+        "content": "그림, 카드, 활동지, 포스터, 시각 자료 제작"
+      },
+      {
+        "week": "5강",
+        "title": "영상·음성 콘텐츠 실습",
+        "content": "간단 영상 기획, 음성 활용, 발표형 자료 구성"
+      },
+      {
+        "week": "6강",
+        "title": "영어수업 적용 실습",
+        "content": "영어회화, 표현, 문화 소개 수업에 AI 연결"
+      },
+      {
+        "week": "7강",
+        "title": "학생 참여형 활동 설계",
+        "content": "퀴즈, 발표, 역할극, 주니어 프로젝트 수업 구성"
+      },
+      {
+        "week": "8강",
+        "title": "AI 윤리와 학교 현장",
+        "content": "저작권, 안전한 사용, 학부모 설명 포인트"
+      },
+      {
+        "week": "9강",
+        "title": "수업안 작성과 피드백",
+        "content": "실제 방과후 수업안 작성, 교안 정리, 수정"
+      },
+      {
+        "week": "10강",
+        "title": "종합 실전 프로젝트",
+        "content": "1개 방과후 프로그램 완성 및 발표"
+      }
+    ],
+    "evaluation": [
+      "중간 점검과 최종 결과물을 통해 실제 수업 설계 역량을 확인합니다. 과정 이수 후 평가 기준 충족 시 AI 프롬프트, AI 윤리, 방과후 교사 연계 과정으로 확장 가능합니다."
     ],
     "instructor": {
       "name": "타임스미디어 교수진",
